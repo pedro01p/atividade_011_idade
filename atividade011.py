@@ -6,9 +6,9 @@
 val=int(input("digite sua idade"))
 if (val <= 12):
     print("criança")
-if (val <=17) and (val >= 13):
+elif (val <=17) and (val >= 13):
         print("adolescente")
-if (val >=18) and (val <=59):
+elif (val >=18) and (val <=59):
             print("adulto")
-if (val >= 60):
-                print("idoso") 
+elif (val >= 60): 
+       print("idoso") 
